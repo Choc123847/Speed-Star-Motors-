@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #f4f4f4;
+    color:#333
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+}
+.logo h1{
+    margin:0
+}
+nav ul{ 
+    list-style: 0;
+    padding: 0;
+}
+nav li{ 
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{ 
+    color: white;
+    text-decoration:none ;
+}
+nav il li .active{ 
+    font-weight: bold;
+    border-bottom: 2px solid #ff4500;
+}
+section{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+footer{ 
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.hero{ 
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+}
+.copyright{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+}
+.sidebar{
+width: 25%;
+padding: 20px;
+text-align: center;
+border-radius: 9px;
+background:#e0e0e0;
+}
+.sidebar h3{
+    color:black;
+}
+.sidebar a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff4500;
+}
+.sidebar img{
+
+ width: 100%; 
+ border-radius: 8px; 
+ margin:10px;
+
+}
+.main-content{
+    width:50%;
+    background: white;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow:0px 0px (0px rgba(0,0,0,0.1));
+    color: black;
+    
+}
